@@ -41,7 +41,7 @@ interface EmployeeFormProps {
     full_name?: string;
     job_title?: string;
     country?: string;
-    salary?: number;
+    salary?: number 
     department?: string;
     email?: string;
     employment_type?: string;

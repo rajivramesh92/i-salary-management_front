@@ -102,7 +102,7 @@ export default function InsightsPage() {
         </div>
       )}
 
-      {data && <SalaryInsights data={data} />}
+      {data && <SalaryInsights data={data as any} />}
     </main>
   );
 }

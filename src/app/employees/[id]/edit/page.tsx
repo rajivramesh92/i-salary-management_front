@@ -10,9 +10,9 @@ type Employee = {
   full_name: string;
   job_title: string;
   country: string;
-  salary: string | number;
+  salary:  number;
   department: string;
-  email: string;
+  email: string;    
   employment_type: string;
   date_of_joining: string;
 };
