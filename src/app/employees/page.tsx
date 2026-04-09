@@ -50,7 +50,7 @@ export default function EmployeesPage() {
         },
       });
 
-      setEmployees(response.data.employees || response.data || []);
+      setEmployees(response.data.data || []);
       setCurrentPage(1);
     } catch (error) {
       console.error("Failed to fetch employees", error);
