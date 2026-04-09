@@ -49,8 +49,15 @@ export default function EmployeesPage() {
           direction: "desc",
         },
       });
-
-      setEmployees(response.data.data || []);
+       
+      console.log("API RESPONSE:", response.data);
+       
+      setEmployees(
+        response.data.data ||
+        response.data.employees ||
+        response.data ||
+        []
+      );
       setCurrentPage(1);
     } catch (error) {
       console.error("Failed to fetch employees", error);
