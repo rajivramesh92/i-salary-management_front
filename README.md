@@ -59,7 +59,7 @@ This is the frontend application for the Salary Management System. It provides a
 ## 🚀 Deployment
 
 * Hosted on Vercel
-* Live App: https://i-salary-management-front.vercel.app/employees
+*https://i-salary-management-front.vercel.app
 
 ---
 
